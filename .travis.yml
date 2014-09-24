@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: XDqMg/E/zAbo+ozlsl1pmUvz3JEYeHJ1+1YTpGqglHGiD4q9JxBmvd3bNhmjLWOeyTVZwKeTMUtUAh/8WCof+ftg/TMmVKhLL0bAUN5DLbDA/t8IC/LE4TphZUbT7y1ssWZm5U9wv6EnXx/uJoVXuMsNYfKVHDMBf5JYc1QNMtE=
+  app: whispering-chamber-2529
+  on:
+    repo: ucchi/rails_enpit
